@@ -3,10 +3,10 @@
 ## Introduction
 
 ### What is it?
-A Sparse Indexed Doubly Linked List (SIDLL) is a linked list that is linked in both directions and that which has indices (or pointers) distributed throughout the list. It enables O(log p + k) worst case time complexity for inserts, deletes and lookups where p is the size of the indices/pointers and k is the maximum distance travelled between the pointer and a given node. A sparse distribution gives the user the choice between lookup times (faster if the interpointer distance is small) and memory usage (less if the interpointer distance is large). 
+A Sparse Indexed Doubly Linked List (SIDLL) is a linked list that is linked in both directions and that which has indices (or pointers) distributed throughout the list which enables O(log p + k) worst case time complexity for inserts, deletes and lookups where p is the size of the indices/pointers and k is the maximum distance travelled between the pointer and a given node. Sparse distribution gives the user the choice between lookup times (faster if the interpointer distance is small) and memory usage (less if the interpointer distance is large). 
 
 ### What can it be used for?
-It is always sorted by key and can be used to keep track of metrics like the min/max (and their associated values), median, mean, head and tail of the list.
+Given that it is always sorted by key, it can be used to keep track of metrics like the min/max (and their associated values), median, mean, head and tail of the list.
 
 ### Languages
 Python, C++
