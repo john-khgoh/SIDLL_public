@@ -30,7 +30,7 @@ Python, C++
 There are installers for Windows and [manylinux](https://github.com/pypa/manylinux) works with multiple Linux distros. For example, for Python 3.8 on CentOS:
 
 ```
-pip install sidll-0.13-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pip install sidll-0.14-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 ```
 
 ### C++
