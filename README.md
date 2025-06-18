@@ -84,6 +84,8 @@ print(dir(s))
 ```
 ### C++
 ```
+#include "SIDLL.h"
+
 SIDLL s = SIDLL();
 s.setVerborsity(0);
 
